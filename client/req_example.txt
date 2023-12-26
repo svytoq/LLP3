@@ -1,0 +1,52 @@
+query {
+    create {
+        intgr = 10,
+        dbl = 10.1,
+        bln = 1,
+        str = grg
+    }
+}
+
+query {
+    delete {
+        id = *
+    }
+}
+
+query {
+    delete {
+        id = 5
+    }
+}
+
+query {
+    find {
+        id = 1
+    }
+}
+
+query {
+    find {
+        id = *
+    }
+}
+
+query {
+    find {
+        intgr = 10
+    }
+}
+
+query {
+    update {
+        id = 1,
+        intgr = 11
+    }
+}
+
+query {
+    connect {
+        id_1 = 1,
+        id_2 = 2
+    }
+}

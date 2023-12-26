@@ -1,0 +1,8 @@
+query {
+    create {
+        intgr = 10,
+        dbl = 10.1,
+        bln = 1,
+        str = grg
+    }
+}
